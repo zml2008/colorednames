@@ -1,0 +1,6 @@
+name: ${project.name}
+version: "${project.version}"
+author: zml2008
+main: com.zachsthings.colorednames.ColoredNamesPlugin
+platform: SERVER
+reload: true
