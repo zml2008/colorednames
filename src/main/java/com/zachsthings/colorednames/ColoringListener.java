@@ -23,6 +23,10 @@ public class ColoringListener implements Listener {
 
     @EventHandler
     public void onPlayerChat(PlayerChatEvent event) {
+        if (!event.getPlayer().hasPermission("colorednames.color")) {
+            return;
+        }
+
         List<Object> argElements = new ArrayList<Object>(event.getFormat().getArguments().getArguments());
         List<ChatStyle> preChatStyles = new ArrayList<ChatStyle>();
         preChatStyles.add(ChatStyle.RESET);
