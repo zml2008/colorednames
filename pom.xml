@@ -1,18 +1,19 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.zachsthings</groupId>
-  <artifactId>colorednames</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+    <groupId>com.zachsthings</groupId>
+    <artifactId>colorednames</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-  <name>ColoredNames</name>
-  <url>http://zachsthings.com</url>
+    <name>ColoredNames</name>
+    <url>http://zachsthings.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <licenses>
         <license>
@@ -24,7 +25,8 @@
     <scm>
         <url>http://github.com/zml2008/colorednames</url>
         <connection>scm:git:git://github.com/zml2008/colorednames.git</connection>
-        <developerConnection>scm:git:git@github.com:zml2008/colorednames.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:zml2008/colorednames.git
+        </developerConnection>
     </scm>
     <repositories>
         <repository>
@@ -33,13 +35,13 @@
         </repository>
     </repositories>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.spout</groupId>
-      <artifactId>spoutapi</artifactId>
-      <version>dev-SNAPSHOT</version>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.spout</groupId>
+            <artifactId>spoutapi</artifactId>
+            <version>dev-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <resources>
